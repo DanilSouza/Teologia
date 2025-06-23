@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos - Pastor Daniel Souza</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
+        header { background: #4CAF50; color: white; padding: 20px; text-align: center; }
+        nav { background: #333; text-align: center; }
+        nav a { color: white; text-decoration: none; padding: 15px 20px; display: inline-block; }
+        nav a:hover { background: #555; }
+        main { padding: 40px; max-width: 700px; margin: auto; }
+        footer { background: #333; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+        /* Estilo para o iframe/embed para que se ajuste bem */
+        .pdf-container {
+            width: 100%;
+            height: 800px; /* Ajuste a altura conforme necessário */
+            border: 1px solid #ccc; /* Uma borda para visualização */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>Pastor Daniel Souza</header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+        <a href="estudos.html">Estudos</a>
+    </nav>
+
+    <main>
+        <h1>Estudo Detalhado: Resumo Completo da Biblia</h1>
+        <p>Abaixo você pode ler o estudo completo sem sair da página:</p>
+
+        <iframe src="Resumo_Completo_da_Biblia.pdf" class="pdf-container"></iframe>
+
+        <p>Se preferir, você pode <a href="meu_estudo.pdf" download="Nome do Estudo">clicar aqui para baixar o PDF</a>.</p>
+    </main>
+
+    <footer>&copy; 2025 - Pastor Daniel Souza</footer>
+</body>
+</html>
